@@ -23,6 +23,7 @@ class ParcelTrackingConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
             step_id="user", 
             data_schema=vol.Schema({
                 vol.Required("tracking_id"): str,
+                vol.Required("api_key"): str
                 # Add additional fields as needed
             }),
             errors=errors,
