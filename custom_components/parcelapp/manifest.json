@@ -3,8 +3,10 @@
   "name": "Parcels",
   "documentation": "https://example.com",
   "dependencies": [],
-  "codeowners": [],
-  "version": "1.0",
+  "codeowners": ["@goniz"],
+  "version": "1.0.1",
   "requirements": ["requests"],
-  "config_flow": true
+  "config_flow": true,
+  "integration_type": "service",
+  "iot_class": "cloud_polling"
 }
