@@ -1,0 +1,9 @@
+{
+  "domain": "parcelsapp",
+  "name": "Parcels",
+  "documentation": "https://example.com",
+  "dependencies": [],
+  "codeowners": [],
+  "version": "1.0",
+  "requirements": ["requests"]
+}
